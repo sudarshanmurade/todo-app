@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 25px;
+  color: #1e293b;
+}
+
+.container {
+  background: #282b2b;
+  width: 520px;
+  max-width: 90%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 25px rgba(236, 23, 251, 0.08);
+  text-align: left; 
+}
+
+.top-bar {
+  display: flex; 
+  color:rgb(235, 42, 164) ; 
+  font-size: xx-large;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+#themeBtn {
+  background: #e308bb;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+#themeBtn:hover{
+    background-color: white;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.box {
+  flex: 1;
+  background: #f8fafc;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.box p {
+  margin: 0;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.box h2 {
+  margin-top: 5px;
+}
+
+.input-area {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc; 
+font-size: x-large;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer; 
+  font-size: x-large;
+} 
+button:hover{
+    background-color: white ; 
+    color: black;
+}
+
+li {
+  list-style: none;
+  padding: 16px;
+  margin: 8px 0;
+  background: #ebeff6;
+  border-radius: 8px;
+  display: flex;
+  justify-content:space-between; 
+  font-size: x-large;
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #22f10f;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.circle.done {
+  background: #0bf207;
+  border-color: #33d227;
+}
+
+.done-text {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  background: red;
+  padding: 10px 20px;
+}
+
+.container.dark {
+  background: #dcd9e1;
+  color: white;
+}
+
+.container.dark li,
+.container.dark .box  {
+  background: #152f56;
+} 
+
+
+.container.dark input {
+  background: hwb(213 93% 2%);
+  color: white;
+}

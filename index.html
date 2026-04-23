@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📝 To-Do App</h1>
+
+  <div class="container">
+
+    <div class="top-bar">
+      <span>My Tasks</span>
+      <button id="themeBtn">🌙</button>
+    </div>
+
+    <div class="stats">
+      <div class="box">
+        <p>Total</p>
+        <h2 id="total">0</h2>
+      </div>
+      <div class="box">
+        <p>Done</p>
+        <h2 id="done">0</h2>
+      </div>
+      <div class="box">
+        <p>Pending</p>
+        <h2 id="pending">0</h2>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="Enter task...">
+      <button id="addBtn">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
