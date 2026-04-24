@@ -48,7 +48,7 @@ function showTasks() {
     }
 
     let del = document.createElement("button");
-    del.innerText = "X";
+    del.innerText = "Delete";
     del.className = "delete-btn";
 
     del.onclick = function () {
